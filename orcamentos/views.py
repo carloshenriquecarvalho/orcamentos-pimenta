@@ -6,5 +6,5 @@ def home(request):
     return render(request, 'orcamentos/home.html')
 
 def control_panel(request):
-    return HttpResponse('painel de controle')
+    return render(request, 'orcamentos/panel.html')
 
