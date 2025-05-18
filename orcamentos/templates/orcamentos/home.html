@@ -6,11 +6,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pimenta Orçamentos</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+        }
+        
+        .main-header-container{
+            background-color: black;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(255, 217, 1, 0.36);
+        }
+
+        ul {
+            display:flex;
+            align-items:center;
+            padding-left:4.0rem;
+            gap:1.5rem;
+        }
+
+        h1 {
+            color:white;
+        }
+    </style>
 </head>
 <body>
     <header class="main-header-container">
         <div class="main-header">
-            <img src="{% static '/home/carlos/Documents/pimenta-orçamentos/orcamentos/templates/static/logo.svg' %}">
+            <ul>
+                <li>
+                    <a href=""><img src="{% static 'logo.svg' %}" alt="Logo"></a>
+                </li>
+                <li>
+                    <h1>Orçamentos</h1>
+                </li>
+            </ul>
         </div>
     </header>
 </body>
