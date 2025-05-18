@@ -6,3 +6,4 @@ urlpatterns = [
     path('', home),
     path('painel', control_panel)
 ]
+

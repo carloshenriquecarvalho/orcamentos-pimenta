@@ -20,5 +20,5 @@ from django.urls import path, include
 # configurando urls
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('orcamentos.url')),
+    path('pimenta', include('orcamentos.urls')),
 ]
