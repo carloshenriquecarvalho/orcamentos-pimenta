@@ -4,6 +4,5 @@ from orcamentos.views import home, control_panel
 # configurando urls
 urlpatterns = [
     path('', home),
-    path('painel', control_panel)
+    path('painel/', control_panel)
 ]
-
